@@ -1,0 +1,32 @@
+.btn {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+    color: #a03fe0;
+    border-radius: 5px 0px 5px 0px;
+    border: 3px solid #672f72;
+    padding-right: 1px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 480px){
+    .btn{
+      font-size: 16px;
+      margin: 1px;
+    }
+    }
+  
+  .active, .btn:hover{
+   color: #e499ee;
+   background: linear-gradient(to right, transparent 50%, #174c6e 50%);
+   background-size: 200% 100%;
+   background-position: right bottom;
+  }
+  .btn1{
+    pointer-events: none;
+
+  }
